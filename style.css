@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+:root {
+    --cyan: hsl(179, 62%, 43%);
+    --cyanLight: hsl(179, 47%, 52%);
+    --yellow: hsl(71, 73%, 54%);
+    --gray: hsl(204, 43%, 93%);
+    --blue: hsl(218, 22%, 67%);
+}
+
+html {
+    font-size: 16px;
+    font-family: 'Karla', sans-serif;
+}
+
+body,
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: honeydew;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    line-height: 170%;
+}
+
+.price-grid {
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16),
+        0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.price-grid-header {
+    background: white;
+    padding: 2rem;
+    padding-right: 3rem;
+}
+
+.price-grid h1 {
+    color: var(--cyan);
+    margin-bottom: 1.5rem;
+}
+
+.price-grid h2 {
+    color: var(--yellow);
+    margin-bottom: 1rem;
+}
+
+.price-grid-header p {
+    color: var(--blue);
+    line-height: 170%;
+}
+
+.price-grid-body {
+    display: flex;
+    width: 100%;
+    display: flex;
+
+}
+
+.content {
+    width: 50%;
+    padding: 3rem 2rem;
+    color: var(--gray);
+}
+
+
+.content h3 {
+    color: var(--gray);
+    font-weight: 300;
+    margin-bottom: 1.5rem;
+}
+
+.content .pricing {
+    display: flex;
+    align-items: center;
+    margin-bottom: .5rem;
+}
+
+.content .price {
+    font-size: 2rem;
+    margin-right: 1rem;
+}
+
+.content .sub-time {
+    color: var(--gray);
+}
+
+.sign-up-button {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1rem;
+    margin-top: 2rem;
+    border: none;
+    border-radius: 5px;
+    background: var(--yellow);
+    color: var(--gray);
+}
+
+#subscription {
+    background: var(--cyan);
+}
+
+#why {
+    background: var(--cyanLight);
+}
+
+#why ul {
+    list-style: none;
+}
+
+#why li {
+    line-height: 140%;
+}

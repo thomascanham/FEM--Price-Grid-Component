@@ -1,3 +1,12 @@
+## What is this?
+
+This is my attempt / solution at the Front End Mentor Challenge on recreating a Single Price Grid Component. 
+
+This is a newbie challenge and I consider myself somewhat of a newbie developer. I am heading back to HTML and CSS in an attempt the get much better at the basics of putting a page together.
+
+
+
+
 # Frontend Mentor - Single Price Grid Component
 
 ![Design preview for the Single Price Grid Component coding challenge](./design/desktop-preview.jpg)
